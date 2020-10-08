@@ -143,7 +143,7 @@ export class NullEngine extends Engine {
             blendMinMax: false
         };
 
-        Logger.Log(`Babylon.js v${Engine.Version} - Null engine`);
+        Logger.Log(`Scapic Engine v${Engine.Version} - Null engine`);
 
         // Wrappers
         const theCurrentGlobal = (typeof self !== "undefined" ? self : typeof global !== "undefined" ? global : window);

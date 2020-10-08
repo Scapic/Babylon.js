@@ -720,7 +720,7 @@ export class ThinEngine {
         this._badDesktopOS = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
         this._creationOptions = options;
-        console.log(`Babylon.js v${ThinEngine.Version} - ${this.description}`);
+        console.log(`Scapic Engine v${ThinEngine.Version} - ${this.description}`);
     }
 
     private _rebuildInternalTextures(): void {
